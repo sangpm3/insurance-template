@@ -1,5 +1,5 @@
 function handleSubmitForm(event) {
-  event.preventDefault();
+  // event.preventDefault();
 
   const fullName = document.getElementById("fullName").value;
   const job = document.getElementById("job").value;
@@ -46,3 +46,7 @@ form.addEventListener("submit", handleSubmitForm);
 function scrollToTop() {
   window.scrollTo(0, 0);
 }
+
+// https://script.google.com/macros/s/AKfycbzbF039JBRsF34jRqGm4Xzs9l5qSOk4HLapW6bOKlML2159hnWnEpMU_sfttAzS-4LMzQ/exec
+
+// AKfycbzbF039JBRsF34jRqGm4Xzs9l5qSOk4HLapW6bOKlML2159hnWnEpMU_sfttAzS-4LMzQ
