@@ -11,11 +11,6 @@ async function handleSubmitForm(event) {
   const phoneNumber = document.getElementById("phoneNumber").value;
   const address = document.getElementById("address").value;
 
-  console.log("log fullName: ", fullName);
-  console.log("log job: ", job);
-  console.log("log phoneNumber: ", phoneNumber);
-  console.log("log address: ", address);
-
   await jQuery.ajax({
     url: `https://docs.google.com/forms/d/e/1FAIpQLSdUhVH-nUEJk5tYEG2bbKW9FjE2zYLsmd_ImHF71p0ZEtrDxg/formResponse?submit=Submit?usp=pp_url&entry.${FULL_NAME_ID}=${fullName}&entry.${JOB_ID}=${job}&entry.${PHONE_NUMBER_ID}=${phoneNumber}&entry.${ADDRESS_ID}=${address}`,
     type: "post",
@@ -34,7 +29,3 @@ form.addEventListener("submit", handleSubmitForm);
 function scrollToTop() {
   window.scrollTo(0, 0);
 }
-
-// https://script.google.com/macros/s/AKfycbzbF039JBRsF34jRqGm4Xzs9l5qSOk4HLapW6bOKlML2159hnWnEpMU_sfttAzS-4LMzQ/exec
-
-// AKfycbzbF039JBRsF34jRqGm4Xzs9l5qSOk4HLapW6bOKlML2159hnWnEpMU_sfttAzS-4LMzQ

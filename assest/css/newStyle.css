@@ -1,0 +1,13 @@
+.new_container_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.new_container_info_wraper {
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
