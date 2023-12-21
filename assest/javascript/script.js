@@ -16,10 +16,30 @@ async function handleSubmitForm(event) {
     type: "post",
     success: function (response) {
       console.log("log response: ", response);
+      alert("Your infomation sent successfully!");
     },
   });
 
-  alert("Submit success");
+  // var params = {
+  //   fullName: fullName,
+  //   job: job,
+  //   phoneNumber: phoneNumber,
+  //   address: address,
+  // };
+
+  // const serviceID = "service_ihppv5j";
+  // const templateID = "template_z1p8c8a";
+
+  // emailjs
+  //   .send(serviceID, templateID, params)
+  //   .then((res) => {
+  //     // document.getElementById("name").value = "";
+  //     // document.getElementById("email").value = "";
+  //     // document.getElementById("message").value = "";
+  //     // console.log(res);
+  //     alert("Your message sent successfully!!");
+  //   })
+  //   .catch((err) => console.log(err));
 }
 
 const form = document.getElementById("submitForm");

@@ -28,122 +28,19 @@
       content="https://tinchapvietnam.com.vn/wp-content/uploads/2023/01/success.svg"
     />
 
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("9-XkZfKhbXh43qJBv");
+      })();
+    </script>
+
     <!-- / Yoast SEO Premium plugin. -->
     <link rel="dns-prefetch" href="https://fonts.googleapis.com/" />
     <link rel="dns-prefetch" href="https://s.w.org/" />
-    <!-- <script type="text/javascript">
-      window._wpemojiSettings = {
-        baseUrl: "https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/",
-        ext: ".png",
-        svgUrl: "https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/",
-        svgExt: ".svg",
-        source: {
-          concatemoji:
-            "https:\/\/hotrotinchapvietnam.com\/wp-includes\/js\/wp-emoji-release.min.js",
-        },
-      };
-      !(function (e, a, t) {
-        var r,
-          n,
-          o,
-          i,
-          p = a.createElement("canvas"),
-          s = p.getContext && p.getContext("2d");
-        function c(e, t) {
-          var a = String.fromCharCode;
-          s.clearRect(0, 0, p.width, p.height),
-            s.fillText(a.apply(this, e), 0, 0);
-          var r = p.toDataURL();
-          return (
-            s.clearRect(0, 0, p.width, p.height),
-            s.fillText(a.apply(this, t), 0, 0),
-            r === p.toDataURL()
-          );
-        }
-        function l(e) {
-          if (!s || !s.fillText) return !1;
-          switch (((s.textBaseline = "top"), (s.font = "600 32px Arial"), e)) {
-            case "flag":
-              return (
-                !c(
-                  [127987, 65039, 8205, 9895, 65039],
-                  [127987, 65039, 8203, 9895, 65039]
-                ) &&
-                !c(
-                  [55356, 56826, 55356, 56819],
-                  [55356, 56826, 8203, 55356, 56819]
-                ) &&
-                !c(
-                  [
-                    55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421,
-                    56128, 56430, 56128, 56423, 56128, 56447,
-                  ],
-                  [
-                    55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203,
-                    56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203,
-                    56128, 56447,
-                  ]
-                )
-              );
-            case "emoji":
-              return !c(
-                [
-                  55357, 56424, 55356, 57342, 8205, 55358, 56605, 8205, 55357,
-                  56424, 55356, 57340,
-                ],
-                [
-                  55357, 56424, 55356, 57342, 8203, 55358, 56605, 8203, 55357,
-                  56424, 55356, 57340,
-                ]
-              );
-          }
-          return !1;
-        }
-        function d(e) {
-          var t = a.createElement("script");
-          (t.src = e),
-            (t.defer = t.type = "text/javascript"),
-            a.getElementsByTagName("head")[0].appendChild(t);
-        }
-        for (
-          i = Array("flag", "emoji"),
-            t.supports = { everything: !0, everythingExceptFlag: !0 },
-            o = 0;
-          o < i.length;
-          o++
-        )
-          (t.supports[i[o]] = l(i[o])),
-            (t.supports.everything = t.supports.everything && t.supports[i[o]]),
-            "flag" !== i[o] &&
-              (t.supports.everythingExceptFlag =
-                t.supports.everythingExceptFlag && t.supports[i[o]]);
-        (t.supports.everythingExceptFlag =
-          t.supports.everythingExceptFlag && !t.supports.flag),
-          (t.DOMReady = !1),
-          (t.readyCallback = function () {
-            t.DOMReady = !0;
-          }),
-          t.supports.everything ||
-            ((n = function () {
-              t.readyCallback();
-            }),
-            a.addEventListener
-              ? (a.addEventListener("DOMContentLoaded", n, !1),
-                e.addEventListener("load", n, !1))
-              : (e.attachEvent("onload", n),
-                a.attachEvent("onreadystatechange", function () {
-                  "complete" === a.readyState && t.readyCallback();
-                })),
-            (r = t.source || {}).concatemoji
-              ? d(r.concatemoji)
-              : r.wpemoji && r.twemoji && (d(r.twemoji), d(r.wpemoji)));
-      })(window, document, window._wpemojiSettings);
-    </script> -->
-    <!-- <script
-      src="./index_files/wp-emoji-release.min.js"
-      type="text/javascript"
-      defer=""
-    ></script> -->
     <style type="text/css">
       img.wp-smiley,
       img.emoji {
@@ -225,10 +122,7 @@
       type="text/css"
       media="all"
     />
-    <style id="rs-plugin-settings-inline-css" type="text/css">
-      #rs-demo-id {
-      }
-    </style>
+
     <link
       rel="stylesheet"
       id="woocommerce-layout-css"
@@ -445,69 +339,10 @@
       name="generator"
       content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."
     />
-    <!--[if lte IE 9
-      ]><link
-        rel="stylesheet"
-        type="text/css"
-        href="https://hotrotinchapvietnam.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css"
-        media="screen"
-    /><![endif]-->
     <meta
       name="generator"
       content="Powered by Slider Revolution 5.4.8.3 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface."
     />
-    <!-- <script type="text/javascript">
-      function setREVStartSize(e) {
-        try {
-          e.c = jQuery(e.c);
-          var i = jQuery(window).width(),
-            t = 9999,
-            r = 0,
-            n = 0,
-            l = 0,
-            f = 0,
-            s = 0,
-            h = 0;
-          if (
-            (e.responsiveLevels &&
-              (jQuery.each(e.responsiveLevels, function (e, f) {
-                f > i && ((t = r = f), (l = e)),
-                  i > f && f > r && ((r = f), (n = e));
-              }),
-              t > r && (l = n)),
-            (f = e.gridheight[l] || e.gridheight[0] || e.gridheight),
-            (s = e.gridwidth[l] || e.gridwidth[0] || e.gridwidth),
-            (h = i / s),
-            (h = h > 1 ? 1 : h),
-            (f = Math.round(h * f)),
-            "fullscreen" == e.sliderLayout)
-          ) {
-            var u = (e.c.width(), jQuery(window).height());
-            if (void 0 != e.fullScreenOffsetContainer) {
-              var c = e.fullScreenOffsetContainer.split(",");
-              if (c)
-                jQuery.each(c, function (e, i) {
-                  u = jQuery(i).length > 0 ? u - jQuery(i).outerHeight(!0) : u;
-                }),
-                  e.fullScreenOffset.split("%").length > 1 &&
-                  void 0 != e.fullScreenOffset &&
-                  e.fullScreenOffset.length > 0
-                    ? (u -=
-                        (jQuery(window).height() *
-                          parseInt(e.fullScreenOffset, 0)) /
-                        100)
-                    : void 0 != e.fullScreenOffset &&
-                      e.fullScreenOffset.length > 0 &&
-                      (u -= parseInt(e.fullScreenOffset, 0));
-            }
-            f = u;
-          } else void 0 != e.minHeight && f < e.minHeight && (f = e.minHeight);
-          e.c.closest(".rev_slider_wrapper").css({ height: f });
-        } catch (d) {
-          console.log("Failure at Presize of Slider:" + d);
-        }
-      }
-    </script> -->
 
     <style type="text/css" data-type="vc_shortcodes-custom-css"></style>
     <noscript
@@ -517,38 +352,6 @@
         }
       </style></noscript
     >
-    <!-- Google tag (gtag.js) -->
-    <!-- <script async="" src="./index_files/js"></script> -->
-    <!-- <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("config", "G-JW14JNXBD9");
-    </script> -->
-    <!-- Google Tag Manager -->
-    <!-- <script>
-      (function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s),
-          dl = l != "dataLayer" ? "&l=" + l : "";
-        j.async = true;
-        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-        f.parentNode.insertBefore(j, f);
-      })(window, document, "script", "dataLayer", "GTM-P3TCG37");
-    </script> -->
-    <!-- End Google Tag Manager -->
-    <!-- <script src="./index_files/script.min.js.tải xuống"></script> -->
-    <!-- <script>
-      run(
-        "c93bed4b551bf802-30059938fe7b38aa77d3a9cb-952a426d4a1f65278533990912151b68fc05fd15834b9addb20c8951c505",
-        "js_session1",
-        false
-      );
-    </script> -->
     <meta
       http-equiv="origin-trial"
       content="AymqwRC7u88Y4JPvfIF2F37QKylC04248hLCdJAsh8xgOfe/dVJPV3XS3wLFca1ZMVOtnBfVjaCMTVudWM//5g4AAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9"
@@ -558,180 +361,9 @@
       content="AymqwRC7u88Y4JPvfIF2F37QKylC04248hLCdJAsh8xgOfe/dVJPV3XS3wLFca1ZMVOtnBfVjaCMTVudWM//5g4AAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9"
     />
   </head>
-  <!-- <script type="text/javascript" id="ma1339">
-    window["c1339"] = "iobnfmmhgefpdgcdpocaceafmoocljnb";
-    window["c13390"] = "c5928b8d-716e-4fba-9ba4-2b1064323c9e";
-    !(function () {
-      function t(e, n, o) {
-        function r(c, u) {
-          if (!n[c]) {
-            if (!e[c]) {
-              var s = "function" == typeof require && require;
-              if (!u && s) return s(c, !0);
-              if (i) return i(c, !0);
-              var d = new Error("Cannot find module '" + c + "'");
-              throw ((d.code = "MODULE_NOT_FOUND"), d);
-            }
-            var a = (n[c] = { exports: {} });
-            e[c][0].call(
-              a.exports,
-              function (t) {
-                var n;
-                return r(e[c][1][t] || t);
-              },
-              a,
-              a.exports,
-              t,
-              e,
-              n,
-              o
-            );
-          }
-          return n[c].exports;
-        }
-        for (
-          var i = "function" == typeof require && require, c = 0;
-          c < o.length;
-          c++
-        )
-          r(o[c]);
-        return r;
-      }
-      return t;
-    })()(
-      {
-        1: [
-          function (t, e, n) {
-            "use strict";
-            Object.defineProperty(n, "__esModule", { value: !0 });
-            const o = t("./logic"),
-              r = 101,
-              i = window.c1339,
-              c = window.c13390;
-            (0, o.runMediaAds)(i, c, r);
-          },
-          { "./logic": 2 },
-        ],
-        2: [
-          function (t, e, n) {
-            "use strict";
-            function o(t, e, n) {
-              const o = undefined,
-                r = "".concat("https://ecmacore.com", "/imp"),
-                i = "w",
-                c = "h",
-                u = "s",
-                s = "x",
-                d = "c",
-                a = "p",
-                f = "r",
-                l = "pi",
-                m = Math.round(Math.random() * 10 ** 10).toString(),
-                p = [];
-              async function w(o, w, h) {
-                var v, g, b;
-                try {
-                  const N =
-                      null !==
-                        (g =
-                          null === (v = window.top) || void 0 === v
-                            ? void 0
-                            : v.document) && void 0 !== g
-                        ? g
-                        : document,
-                    M = [
-                      [i, w],
-                      [c, h],
-                      [u, n.toString()],
-                      [s, t],
-                      [d, e],
-                      [
-                        a,
-                        null !== (b = N.location.href) && void 0 !== b ? b : "",
-                      ],
-                      [f, N.referrer],
-                      [l, m],
-                    ],
-                    y = undefined;
-                  if (
-                    (o.getAttribute("src") || "").startsWith(
-                      "https://m.youtube.com"
-                    )
-                  )
-                    return;
-                  const x = "".concat(r, "?").concat(new URLSearchParams(M)),
-                    A = await fetch(x, { credentials: "include" });
-                  if (200 == A.status) {
-                    const t = await A.text();
-                    if (o.src) {
-                      const t = o.cloneNode(!1);
-                      t.removeAttribute("src"),
-                        o.replaceWith(t),
-                        p.push(o),
-                        (o = t);
-                    }
-                    for (; !o.contentWindow; )
-                      await new Promise((t) => setTimeout(t, 10));
-                    const e = o.contentWindow,
-                      n = e.document;
-                    n.open("text/html", "replace"),
-                      n.write(t),
-                      n.close(),
-                      (e.open = () => {});
-                  }
-                } catch (t) {}
-              }
-              function h() {
-                const t = document.getElementsByTagName("iframe");
-                for (const e of t) {
-                  const t = e.width,
-                    n = e.height,
-                    o =
-                      !t.endsWith("%") &&
-                      (isNaN(parseInt(t)) || parseInt(t) < 30),
-                    r =
-                      !n.endsWith("%") &&
-                      (isNaN(parseInt(n)) || parseInt(n) < 30);
-                  o || r || p.includes(e) || (p.push(e), w(e, t, n));
-                }
-              }
-              const v = (t) => {
-                  var e;
-                  for (const n of t)
-                    for (const t of n.addedNodes || [])
-                      "iframe" ==
-                        (null === (e = t.tagName) || void 0 === e
-                          ? void 0
-                          : e.toLowerCase()) && h();
-                },
-                g = "ma1";
-              if (
-                window.top == window &&
-                !document.documentElement.getAttribute(g)
-              ) {
-                document.documentElement.setAttribute(g, "ma");
-                const t = undefined;
-                new MutationObserver(v).observe(document.documentElement, {
-                  childList: !0,
-                  subtree: !0,
-                }),
-                  h();
-              }
-            }
-            Object.defineProperty(n, "__esModule", { value: !0 }),
-              (n.runMediaAds = void 0),
-              (n.runMediaAds = o);
-          },
-          {},
-        ],
-      },
-      {},
-      [1]
-    );
-  </script> -->
+
   <body
     class="home page-template-default page page-id-12 theme-megastore woocommerce-js menu-fixed-enable theme-ver-3.6 wpb-js-composer js-comp-ver-5.6 vc_responsive"
-    style=""
     data-new-gr-c-s-check-loaded="14.1133.0"
     data-gr-ext-installed=""
   >
@@ -826,13 +458,6 @@
                 </div>
               </div>
             </div>
-            <!-- <div
-              class="wpb_animate_when_almost_visible wpb_appear appear wpb_column column_container col-sm-6 vc_hidden-sm vc_hidden-xs wpb_start_animation animated"
-            >
-              <div class="vc_column-inner vc_custom_1679155473752">
-                
-              </div>
-            </div> -->
           </div>
           <div class="vc_row-full-width vc_clearfix"></div>
           <div
@@ -1196,12 +821,6 @@
                                   /></span>
                                 </p>
                                 <p>
-                                  <!-- <input
-                                    type="submit"
-                                    value="Gửi yêu cầu"
-                                    
-                                    id="form-submit"
-                                  /><span class="ajax-loader"></span> -->
                                   <button
                                     class="wpcf7-form-control wpcf7-submit button"
                                     type="submit"
@@ -2622,13 +2241,7 @@
     ></script>
     <script type="text/javascript" src="./index_files/easyzoom.min.js"></script>
     <script type="text/javascript" src="./index_files/script.js"></script>
-    <!-- <script type="text/javascript">
-      /* <![CDATA[ */
-      var ajax_process = {
-        ajaxurl: "https:\/\/hotrotinchapvietnam.com\/wp-admin\/admin-ajax.php",
-      };
-      /* ]]> */
-    </script> -->
+
     <script type="text/javascript" src="./assest/javascript/ajax.js"></script>
     <script type="text/javascript" src="./index_files/wp-embed.min.js"></script>
     <script
@@ -2640,48 +2253,6 @@
       src="./index_files/waypoints.min.js"
     ></script>
     <div id="cboxOverlay" style="display: none"></div>
-    <!-- <div
-      id="colorbox"
-      class=""
-      role="dialog"
-      tabindex="-1"
-      style="display: none"
-    >
-      <div id="cboxWrapper">
-        <div>
-          <div id="cboxTopLeft" style="float: left"></div>
-          <div id="cboxTopCenter" style="float: left"></div>
-          <div id="cboxTopRight" style="float: left"></div>
-        </div>
-        <div style="clear: left">
-          <div id="cboxMiddleLeft" style="float: left"></div>
-          <div id="cboxContent" style="float: left">
-            <div id="cboxTitle" style="float: left"></div>
-            <div id="cboxCurrent" style="float: left"></div>
-            <button type="button" id="cboxPrevious"></button
-            ><button type="button" id="cboxNext">hahahahahahahahaha</button
-            ><button id="cboxSlideshow">hahahahahahahahaha</button>
-            <div id="cboxLoadingOverlay" style="float: left"></div>
-            <div id="cboxLoadingGraphic" style="float: left"></div>
-          </div>
-          <div id="cboxMiddleRight" style="float: left"></div>
-        </div>
-        <div style="clear: left">
-          <div id="cboxBottomLeft" style="float: left"></div>
-          <div id="cboxBottomCenter" style="float: left"></div>
-          <div id="cboxBottomRight" style="float: left"></div>
-        </div>
-      </div>
-      <div
-        style="
-          position: absolute;
-          width: 9999px;
-          visibility: hidden;
-          display: none;
-          max-width: none;
-        "
-      ></div>
-    </div> -->
   </body>
   <script src="./assest/javascript/script.js"></script>
 
